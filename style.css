@@ -206,6 +206,10 @@ button {
 }
 
 
+#subtopnav a:hover {
+    background-color: rgb(13, 167, 77);
+}
+
 
 /*  */
 /* Content Container */
@@ -239,6 +243,16 @@ button {
     color: #282A35;
 }
 
+.content-container-a dd:hover {
+    background-color: rgba(128, 128, 128, 0.756);
+}
+
+
+.content-container-a dd:active {
+    background-color: rgb(13, 167, 77);
+}
+
+
 dt {
     font-weight: 600;
     font-size: 25px;
@@ -255,14 +269,38 @@ dd {
 }
 
 .content-container-b {
-    border: 1px solid rgb(245, 8, 237);
     padding: 10px;
     width: 90%;
+    position: relative;
+    /* height: 100vh; */
 }
 
+.contenet {
+    position: absolute;
+    right: 50px;
+    width: 100vh;
+    border-left: none;
+}
+
+.contenet h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+}
+
+.contenet p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+
 .content-container-c {
-    border: 1px solid rgb(255, 8, 8);
     width: 25%;
     text-align: center;
     font-family: fantasy;
+    background-color: #f1f1f145;
+    height: 199vh;
 }
