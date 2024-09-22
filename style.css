@@ -1,0 +1,268 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*  */
+/* First Nav Bar */
+/*  */
+
+.first-navbar {
+    background-color: #f1f1f1;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    opacity: 0.9;
+    padding: 0px 5px;
+    margin-top: 5px;
+}
+
+.logo:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.first-navbar-a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.first-navbar-a-item-without-logo {
+    padding: 19px 10px;
+    font-size: medium;
+    width: 98px;
+    text-align: center;
+}
+
+#down-icon {
+    display: inline-block;
+}
+
+
+abbr {
+    text-decoration: none;
+}
+
+
+.first-navbar-a-item-without-logo:hover {
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+
+#input {
+    height: 38px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 8px 13px;
+    font-variation-settings: ;
+    width: 140px;
+}
+
+#contrast-icon {
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px;
+    height: max-content;
+    margin-top: 15px;
+}
+
+
+#contrast-icon:hover {
+    background-color: rgba(128, 128, 128, 0.398);
+    cursor: pointer;
+}
+
+.first-navbar-b {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.first-navbar-b-item {
+    padding: 12px 0px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: large;
+    text-align: center;
+    border-radius: 40px;
+    width: 135px;
+}
+
+
+.first-navbar-b-item:hover {
+    background-color: rgba(128, 128, 128, 0.398);
+    cursor: pointer;
+}
+
+
+button {
+    background-color: rgb(167, 247, 200);
+    cursor: pointer;
+    position: absolute;
+}
+
+.signin {
+    text-align: right;
+    position: absolute;
+    border-radius: 25px;
+    width: 148px;
+    height: 44px;
+    border: none;
+}
+
+#main-sign {
+    margin-top: 7px;
+    margin-left: 13px;
+    margin-bottom: 7px;
+    border-radius: 25px;
+    width: 148px;
+}
+
+.signin-span {
+    padding-right: 12px;
+}
+
+.signin:hover {
+    background-color: rgb(13, 167, 77);
+    color: white;
+}
+
+.signup {
+    position: absolute;
+    background-color: rgba(32, 213, 107, 0.907);
+    z-index: 1;
+    width: 86px;
+    padding: 8px 10px;
+    height: 44px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+}
+
+.signup:hover {
+    background-color: rgb(13, 167, 77);
+}
+
+
+
+
+
+
+/*  */
+/* Second Nav Bar */
+/*  */
+
+
+.secondnav-div {
+    border: 1px solid black;
+}
+
+
+.secondnav-div nav ol {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondnav-div nav ol li {
+    padding: 5px 10px;
+    width: 135px;
+    list-style: none;
+}
+
+#subtopnav {
+    position: fixed;
+    background-color: #282A35;
+    color: #f1f1f1;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    font-size: 0;
+    top: 56px;
+    z-index: 2;
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+#subtopnav a {
+    display: inline-block;
+    width: auto;
+    margin: 0 !important;
+    padding: 5px 15px 5px 15px !important;
+    font-size: 15px !important;
+    text-decoration: none;
+    line-height: 1.5;
+    color: #f1f1f1;
+}
+
+
+
+/*  */
+/* Content Container */
+/*  */
+
+
+
+.content-container {
+    display: flex;
+    z-index: -2;
+    top: 103px;
+    position: absolute;
+    width: 100%;
+}
+
+
+.content-container-a {
+    border: 1px solid rgb(133, 59, 59);
+    padding: 10px;
+    width: 18%;
+    background-color: gainsboro;
+    line-height: 25px;
+    overflow: auto;
+    height: 527px;
+    position: fixed;
+}
+
+
+.content-container-a dl a {
+    text-decoration: none;
+    color: #282A35;
+}
+
+dt {
+    font-weight: 600;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-left: 5px;
+}
+
+dd {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 30px;
+    padding-left: 50px;
+}
+
+.content-container-b {
+    border: 1px solid rgb(245, 8, 237);
+    padding: 10px;
+    width: 90%;
+}
+
+.content-container-c {
+    border: 1px solid rgb(255, 8, 8);
+    width: 25%;
+    text-align: center;
+    font-family: fantasy;
+}
