@@ -229,12 +229,12 @@ button {
 .content-container-a {
     border: 1px solid rgb(133, 59, 59);
     padding: 10px;
-    width: 18%;
+    width: 28%;
     background-color: gainsboro;
     line-height: 25px;
     overflow: auto;
     height: 527px;
-    position: fixed;
+    /* position: fixed; */
 }
 
 
@@ -250,6 +250,11 @@ button {
 
 .content-container-a dd:active {
     background-color: rgb(13, 167, 77);
+}
+
+.content-container-a-child {
+    /* position: fixed; */
+    overflow-y: auto;
 }
 
 
@@ -290,7 +295,7 @@ dd {
 }
 
 .contenet p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:sans-serif;
     font-weight: 600;
     font-size: 35px;
     line-height: 50px;
