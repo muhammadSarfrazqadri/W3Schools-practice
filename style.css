@@ -222,6 +222,7 @@ button {
     z-index: -2;
     top: 103px;
     position: absolute;
+    /* position: fixed; */
     width: 100%;
 }
 
@@ -229,12 +230,12 @@ button {
 .content-container-a {
     border: 1px solid rgb(133, 59, 59);
     padding: 10px;
-    width: 28%;
+    width: 15em;
     background-color: gainsboro;
     line-height: 25px;
     overflow: auto;
     height: 527px;
-    /* position: fixed; */
+    position: fixed;
 }
 
 
@@ -252,12 +253,6 @@ button {
     background-color: rgb(13, 167, 77);
 }
 
-.content-container-a-child {
-    /* position: fixed; */
-    overflow-y: auto;
-}
-
-
 dt {
     font-weight: 600;
     font-size: 25px;
@@ -273,39 +268,35 @@ dd {
     padding-left: 50px;
 }
 
+
 .content-container-b {
-    padding: 10px;
-    width: 90%;
-    position: relative;
-    /* height: 100vh; */
+    display: flex;
+    width: 60em%;
+    overflow: auto;
 }
 
-.contenet {
+
+.content {
+    width: 47%;
     position: absolute;
-    right: 50px;
-    width: 100vh;
-    border-left: none;
-}
-
-.contenet h2 {
+    right: 26em;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 800;
-    font-size: 100px;
+    padding: 10px;
 }
 
-.contenet p {
-    font-family:sans-serif;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 50px;
-}
-
-
-.content-container-c {
-    width: 25%;
+.advertisement {
+    border: 1px solid rgba(141, 135, 135, 0.781);
+    width: 20em;
     text-align: center;
-    font-family: fantasy;
-    background-color: #f1f1f145;
-    height: 199vh;
+    position: absolute;
+    right: 0%;
+    overflow: auto;
+    height: max-content;
+}
+
+p {
+    font-size: larger;
+    font-weight: 300;
+    font-family: sans-serif;
+    line-height: 3em;
 }
